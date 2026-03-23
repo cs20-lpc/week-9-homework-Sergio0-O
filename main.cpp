@@ -8,7 +8,6 @@ using namespace std;
 int main() {
     srand(time(0));
 
-    // ===== Simulation 1 (Array Queue - max 10) =====
     cout << "Simulation 1 (Ticket Line)\n";
     Queue<int>* q1 = QueueFactory<int>::GetQueue(10);
 
@@ -27,7 +26,7 @@ int main() {
     delete q1;
 
 
-    // ===== Simulation 2 (Linked List Queue) =====
+   
     cout << "\nSimulation 2 (Bank Line)\n";
     Queue<int>* q2 = QueueFactory<int>::GetQueue();
 
